@@ -17,7 +17,7 @@
 			var searchForm = $('#search-form');
 			var self = this;
 
-			$('#search-form').submit(function(event) {
+			searchForm.submit(function(event) {
 				self.performSearch();
 				return false;
 			});
